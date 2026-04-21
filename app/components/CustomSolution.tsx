@@ -10,14 +10,14 @@ const CustomSolution = () => {
             Need a High-Volume Plan?
           </h3>
           <p className="text-pink-mist/60">
-           {`If you need more than 200+ pins or have multiple brands, let's build
+            {`If you need more than 200+ pins or have multiple brands, let's build
             a custom architecture.`}
           </p>
         </div>
         <Link
           href="https://wa.me/923402195735?text=Hi%20Sadaf,%20I%20have%20a%20large-scale%20brand%20and%20need%20a%20custom%20high-volume%20plan."
           target="_blank"
-          className="px-8 py-4 rounded-full border border-ruby-red text-ruby-red hover:bg-ruby-red hover:text-white transition-all font-bold tracking-wide"
+          className="px-8 py-4 rounded-full border border-ruby-red text-ruby-red hover:bg-ruby-red hover:text-white transition-all font-bold tracking-wide text-center"
         >
           Talk to the Developer
         </Link>

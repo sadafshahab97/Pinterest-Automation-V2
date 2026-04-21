@@ -11,7 +11,7 @@ const FloatingButton = () => {
         className="flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:scale-110 transition-transform duration-300 group"
       >
         <MessageCircle className="w-7 h-7 text-white" />
-        <span className="absolute right-16 bg-black/80 text-white text-xs px-3 py-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-white/10">
+        <span className="absolute right-16 bg-black/80 text-white text-xs px-3 py-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-white/30">
           Chat with Sadaf
         </span>
       </Link>

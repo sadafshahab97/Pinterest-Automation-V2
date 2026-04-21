@@ -32,7 +32,7 @@ const ProofSection = () => {
 
   return (
     <section className="relative z-10 bg-[#080808] border-y border-white/5 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-6 py-20 sm:py-24 md:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           {/* Left Content */}
           <motion.div

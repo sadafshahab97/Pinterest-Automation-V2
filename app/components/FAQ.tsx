@@ -23,7 +23,7 @@ const FAQ = () => {
         ].map((item, index) => (
           <div
             key={index}
-            className="glass-panel p-6 border border-white/5 hover:border-ruby-red/30 transition-all"
+            className="glass-panel p-3 sm:p-6 border border-white/5 hover:border-ruby-red/30 transition-all"
           >
             <h4 className="text-pink-mist font-semibold mb-2 flex justify-between items-center">
               {item.q}

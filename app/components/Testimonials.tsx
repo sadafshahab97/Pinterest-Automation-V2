@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <section className="relative z-10 py-24 bg-black/40">
+    <section className="relative z-10 py-20 sm:py-24 bg-black/40">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <p className="text-ruby-red uppercase tracking-[0.3em] text-xs font-bold mb-4">
           Social Proof
@@ -14,7 +14,7 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
           <div className="glass-panel p-8 border-l-4 border-l-ruby-red">
-            <p className="text-lg italic text-pink-mist/80 mb-6">
+            <p className="text-sm sm:text-lg italic text-pink-mist/80 mb-6">
               {`"The outbound clicks growth was insane. We saw a +450% increase in
               Shopify traffic within the first month of deploying the V-2
               engine."`}
@@ -33,7 +33,7 @@ const Testimonials = () => {
           </div>
 
           <div className="glass-panel p-8 border-l-4 border-l-ruby-red">
-            <p className="text-lg italic text-pink-mist/80 mb-6">
+            <p className="text-sm sm:text-lg italic text-pink-mist/80 mb-6">
               {`"Finally, an automation that actually understands SEO. My boards
               are now ranking for high-volume keywords I couldn't hit manually."`}
             </p>

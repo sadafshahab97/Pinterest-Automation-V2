@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight, MessageCircle } from "lucide-react";
 const HeroSection = () => {
   return (
-    <section className="relative z-10 px-6 pt-32 pb-24 md:pt-48 md:pb-32 max-w-7xl mx-auto flex flex-col items-center text-center">
+    <section className="relative z-10 px-6 pt-24 sm:pt-32 pb-24 md:pt-48 md:pb-32 max-w-7xl mx-auto flex flex-col items-center text-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-        className="text-5xl md:text-7xl  font-bold leading-[1.1] mb-6 max-w-4xl tracking-tight"
+        className="text-[40px] md:text-7xl  font-bold leading-[1.1] mb-6 max-w-4xl tracking-tight"
       >
         Scale Your Sales While You Sleep with{" "}
         <span className="text-ruby-red text-glow">AI-Powered</span> Pinterest
@@ -37,7 +37,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-        className="text-lg md:text-xl text-pink-mist/70 max-w-2xl mb-12 font-light leading-relaxed tracking-wide"
+        className="text-sm sm:text-lg md:text-xl text-pink-mist/70 max-w-2xl mb-12 font-light leading-relaxed tracking-wide"
       >
         Moving beyond simple scripts. Introducing Pinterest Studio V-2: A
         strategic engine that leverages CSV analytics and audience insights to
