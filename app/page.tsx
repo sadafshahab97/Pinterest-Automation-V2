@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Sadaf Automation | High-Conversion Pinterest AI",
     description:
       "Automate your Pinterest growth with our V-2 Analytical Engine. +999% reach in 6 weeks.",
-    url: "https://sadaf-automation.com", 
+    url: "https://sadaf-pin-ai-automation.vercel.app", 
     siteName: "Sadaf Automation",
     images: [
       {

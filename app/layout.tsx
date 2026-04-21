@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Automated Social Media Marketing",
     "Pinterest SEO US Market",
   ],
-  metadataBase: new URL("https://sadaf-automation.vercel.app"), // Apni domain yahan likhein
+  metadataBase: new URL("https://sadaf-pin-ai-automation.vercel.app"), 
   alternates: {
     canonical: "/",
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Sadaf Automation | Next-Gen Pinterest Growth",
     description:
       "Our V-2 Engine grew beta accounts by +999% in 6 weeks. High-conversion AI automation for jewelry and e-commerce brands.",
-    url: "https://sadaf-automation.vercel.app",
+    url: "https://sadaf-pin-ai-automation.vercel.app",,
     siteName: "Sadaf Automation",
     images: [
       {
