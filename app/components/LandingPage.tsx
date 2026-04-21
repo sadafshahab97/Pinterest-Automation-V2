@@ -1,5 +1,5 @@
 "use client";
-import dynamic from "next/dynamic"; // Dynamic import ke liye
+import dynamic from "next/dynamic"; 
 import HeroSection from "./HeroSection";
 import ServiceTiers from "./ServiceTiers";
 import ProcessSection from "./ProcessSection";
@@ -10,10 +10,10 @@ import Testimonials from "./Testimonials";
 import CustomSolution from "./CustomSolution";
 import FloatingButton from "./FloatingButton";
 
-// ProofSection ko client-side render karne ke liye fix
+
 const ProofSection = dynamic(() => import("./ProofSection"), {
   ssr: false,
-  loading: () => <div className="h-[400px] bg-black" />, // Loading state
+  loading: () => <div className="h=-100 bg-black" />, // Loading state
 });
 
 export default function LandingPage() {

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Sadaf Automation | Next-Gen Pinterest Growth",
     description:
       "Our V-2 Engine grew beta accounts by +999% in 6 weeks. High-conversion AI automation for jewelry and e-commerce brands.",
-    url: "https://sadaf-pin-ai-automation.vercel.app",,
+    url: "https://sadaf-pin-ai-automation.vercel.app",
     siteName: "Sadaf Automation",
     images: [
       {

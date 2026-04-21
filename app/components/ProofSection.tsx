@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react"; // Hook add kiya
+import { useState, useEffect } from "react"; 
 import { motion } from "motion/react";
 import {
   Area,
@@ -21,7 +21,6 @@ const chartData = [
 ];
 
 const ProofSection = () => {
-  // Masla khatam karne ke liye state
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
