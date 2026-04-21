@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Fix: Transparent black ko solid black kiya */
+  --color-cinematic-black: #000000;
+
+  /* Fix: Brand consistent colors */
+  --color-ruby-red: #df0022;
+  --color-pink-mist: #e2d1d5;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer utilities {
+  .bg-cyber-grid {
+    background-image: radial-gradient(
+      rgba(165, 81, 102, 0.15) 1px,
+      /* Grid dots ko soft kiya */ transparent 1px
+    );
+    background-size: 40px 40px;
+    background-position: center;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px; /* Zyada modern premium look ke liye */
+  }
+
+  .glow-border {
+    box-shadow:
+      0 0 25px rgba(165, 81, 102, 0.2),
+      inset 0 0 10px rgba(165, 81, 102, 0.05);
+    border-color: rgba(165, 81, 102, 0.4) !important;
+  }
+
+  .glow-btn {
+    background: var(--color-ruby-red);
+    color: white;
+    box-shadow: 0 4px 15px rgba(165, 81, 102, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .glow-btn:hover {
+    box-shadow: 0 0 25px rgba(165, 81, 102, 0.6);
+    transform: translateY(-2px);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 15px rgba(165, 81, 102, 0.5);
   }
 }
 
+/* Base styles fix */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000; /* Direct hex for safety */
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Recharts container global fix */
+.recharts-responsive-container {
+  min-width: 0 !important;
+  min-height: 0 !important;
 }
