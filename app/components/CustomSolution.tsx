@@ -10,7 +10,7 @@ const CustomSolution = () => {
             Need a High-Volume Plan?
           </h3>
           <p className="text-pink-mist/60">
-           {`If you need more than 80+ pins or have multiple brands, let's build
+           {`If you need more than 200+ pins or have multiple brands, let's build
             a custom architecture.`}
           </p>
         </div>
