@@ -1,6 +1,7 @@
 "use client";
 
-import { MessageCircle, TrendingUp } from "lucide-react";
+// import { MessageCircle, TrendingUp } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 const FinalConversion = () => {
@@ -38,7 +39,7 @@ const FinalConversion = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-6"
         >
-          <Link
+          {/* <Link
             href="https://www.upwork.com/services/product/marketing-data-driven-pinterest-automation-and-seo-growth-using-ai-2043684649752480421?ref=project_share"
             target="_blank"
             rel="noopener noreferrer"
@@ -46,7 +47,7 @@ const FinalConversion = () => {
           >
             Get Started on Upwork
             <TrendingUp className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Link>
+          </Link> */}
           <Link
             href="https://wa.me/923402195735?text=Hi%20Sadaf,%20I'm%20interested%20in%20a%20custom%20high-volume%20Pinterest%20plan."
             target="_blank"

@@ -60,7 +60,7 @@ const ServiceTiers = () => {
         </h2>
         <p className="text-pink-mist/60 text-lg max-w-3xl mx-auto">
           We handle everything. From AI video frame selection to regional
-          time-zone optimization, our agents manage your brand's growth for a
+          {`time-zone optimization, our agents manage your brand's growth for a`}
           full 30-day cycle.
         </p>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -45,7 +45,7 @@ const HeroSection = () => {
       >
         Experience the power of the V-4 Engine. From AI video frame extraction
         to regional pulse scheduling, we provide a complete 30-day
-        "Done-For-You" strategy to scale your traffic in the US, UK, and beyond.
+        {`"Done-For-You" strategy to scale your traffic in the US, UK, and beyond.`}
       </motion.p>
 
       {/* Action Buttons */}
@@ -55,7 +55,7 @@ const HeroSection = () => {
         transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
         className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
       >
-        <Link
+        {/* <Link
           href="https://www.upwork.com/services/product/marketing-data-driven-pinterest-automation-and-seo-growth-using-ai-2043684649752480421?ref=project_share"
           target="_blank"
           rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const HeroSection = () => {
         >
           Hire on Upwork
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </Link>
+        </Link> */}
         <Link
           href="https://wa.me/923402195735?text=Hi%20Sadaf,%20I'm%20ready%20to%20deploy%20the%20V-4%20Autonomous%20Growth%20plan%20for%20my%20brand."
           target="_blank"
