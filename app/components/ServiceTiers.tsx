@@ -5,45 +5,49 @@ import Link from "next/link";
 
 const tiers = [
   {
-    title: "Analytical AI Starter",
-    price: "200",
+    title: "V-4 Starter: Presence",
+    price: "350",
     features: [
-      "30 Pins/Month",
-      "AI Image Analysis",
-      "Brand Tone Sync",
-      "Basic SEO Board Setup",
+      "60 Optimized Pins (Scheduled for 30 Days)",
+      "AI-Powered Niche & Board Selection",
+      "Automated Brand Tone Matching",
+      "Regional Time-Zone Sync (Targeted)",
+      "Pro AI Image Analysis & Metadata",
     ],
     buttonText: "Deploy Starter",
     highlight: false,
     waMessage:
-      "Hi Sadaf, I'm interested in the Analytical AI Starter ($200) plan.",
+      "Hi Sadaf, I'm interested in the V-4 Starter ($400). I need the 30-day automated presence setup.",
   },
   {
-    title: "V-2 Growth Engine",
-    price: "400",
+    title: "V-4 Growth: Intelligence",
+    price: "750",
     features: [
-      "50 Pins/Month",
-      "CSV Analytics Integration",
-      "Insight-Based SEO",
-      "AI Metadata Generation",
+      "150 Pins (30-Day Full Management)",
+      "AI Video Hook Frame Extraction",
+      "Dynamic Tone & Mood Swapping",
+      "US/UK Traffic Pulse Scheduling",
+      "Deep CSV Audience Data Training",
     ],
     buttonText: "Activate Engine",
     highlight: true,
-    waMessage: "Hi Sadaf, I'm interested in the V-2 Growth Engine ($400) plan.",
+    waMessage:
+      "Hi Sadaf, I'm ready for the V-4 Growth Engine ($800). Let's scale my traffic for the next 30 days.",
   },
   {
-    title: "Analytical Scale Elite",
-    price: "800",
+    title: "V-4 Elite: Dominance",
+    price: "1500",
     features: [
-      "150 Pins/Month",
-      "Full CSV Data Training",
-      "Niche-Specific AI Persona",
-      "24/7 Priority Management",
+      "350 High-Volume Pins (Multi-Account)",
+      "Autonomous Multi-Agent Strategy",
+      "Competitor Gap & Trend Hijacking",
+      "Viral Video Analysis & Optimization",
+      "24/7 Priority DFY Growth Support",
     ],
     buttonText: "Initialize Elite",
     highlight: false,
     waMessage:
-      "Hi Sadaf, I'm interested in the Analytical Scale Elite ($800) plan.",
+      "Hi Sadaf, I need the V-4 Elite Dominance ($1500+). Please manage my global market share.",
   },
 ];
 
@@ -51,11 +55,13 @@ const ServiceTiers = () => {
   return (
     <section className="relative z-10 max-w-7xl mx-auto px-6 py-24 md:py-32">
       <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-5xl  font-bold mb-4">
-          Select Your <span className="text-ruby-red">Engine</span>
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
+          Choose Your <span className="text-ruby-red">V-4 Growth Engine</span>
         </h2>
-        <p className="text-pink-mist/60 text-lg">
-          Agentic workflows designed for scale.
+        <p className="text-pink-mist/60 text-lg max-w-3xl mx-auto">
+          We handle everything. From AI video frame selection to regional
+          time-zone optimization, our agents manage your brand's growth for a
+          full 30-day cycle.
         </p>
       </div>
 
@@ -75,29 +81,37 @@ const ServiceTiers = () => {
           >
             {tier.highlight && (
               <div className="absolute top-0 right-0 bg-ruby-red text-white text-[10px] uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl">
-                Most Popular
+                Best For Scaling
               </div>
             )}
 
             <h3
-              className={`text-xl  uppercase tracking-widest mb-2 ${tier.highlight ? "text-ruby-red" : "text-white/90"}`}
+              className={`text-xl uppercase tracking-widest mb-2 ${
+                tier.highlight ? "text-ruby-red" : "text-white/90"
+              }`}
             >
               {tier.title}
             </h3>
 
             <div
-              className={`text-4xl font-bold  mb-8 ${tier.highlight ? "text-white" : "text-pink-mist"}`}
+              className={`text-4xl font-bold mb-8 ${
+                tier.highlight ? "text-white" : "text-pink-mist"
+              }`}
             >
               ${tier.price}
               <span
-                className={`text-sm  font-normal ${tier.highlight ? "text-white/50" : "text-pink-mist/50"}`}
+                className={`text-sm font-normal ${
+                  tier.highlight ? "text-white/50" : "text-pink-mist/50"
+                }`}
               >
                 /mo
               </span>
             </div>
 
             <ul
-              className={`space-y-4 mb-10 grow text-sm ${tier.highlight ? "text-white/90" : "text-pink-mist/80"}`}
+              className={`space-y-4 mb-10 grow text-sm ${
+                tier.highlight ? "text-white/90" : "text-pink-mist/80"
+              }`}
             >
               {tier.features.map((feature, fIndex) => (
                 <li key={fIndex} className="flex items-start gap-3">
@@ -108,7 +122,9 @@ const ServiceTiers = () => {
             </ul>
 
             <Link
-              href={`https://wa.me/923402195735?text=${encodeURIComponent(tier.waMessage)}`}
+              href={`https://wa.me/923402195735?text=${encodeURIComponent(
+                tier.waMessage,
+              )}`}
               target="_blank"
               className={`w-full py-3 rounded-full text-center transition-all duration-300 uppercase tracking-widest text-sm font-semibold ${
                 tier.highlight
