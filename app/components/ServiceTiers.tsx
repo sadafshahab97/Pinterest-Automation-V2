@@ -10,47 +10,52 @@ const tiers = [
     features: [
       "60 Optimized Pins (Scheduled for 30 Days)",
       "AI-Powered Niche & Board Selection",
+      "SEO Profile Audit & Bio Optimization",
       "Automated Brand Tone Matching",
       "Regional Time-Zone Sync (Targeted)",
-      "Pro AI Image Analysis & Metadata",
+      "Weekly Growth Status Update",
+      "Single Account Management", 
     ],
     buttonText: "Deploy Starter",
     highlight: false,
     waMessage:
-      "Hi Sadaf, I'm interested in the V-4 Starter ($400). I need the 30-day automated presence setup.",
+      "Hi Sadaf, I'm interested in the V-4 Starter ($350). I need the 30-day automated presence setup.",
   },
   {
     title: "V-4 Growth: Intelligence",
     price: "750",
     features: [
       "150 Pins (30-Day Full Management)",
-      "AI Video Hook Frame Extraction",
-      "Dynamic Tone & Mood Swapping",
+      "AI Video Pins (Up to 20-sec each)", 
       "US/UK Traffic Pulse Scheduling",
+      "Automated UTM Link Tracking", 
       "Deep CSV Audience Data Training",
+      "Bi-Weekly Performance Report",
+      "Single Account Handling",
     ],
     buttonText: "Activate Engine",
     highlight: true,
     waMessage:
-      "Hi Sadaf, I'm ready for the V-4 Growth Engine ($800). Let's scale my traffic for the next 30 days.",
+      "Hi Sadaf, I'm ready for the V-4 Growth Engine ($750). Let's scale my traffic for the next 30 days.",
   },
   {
     title: "V-4 Elite: Dominance",
     price: "1500",
     features: [
-      "350 High-Volume Pins (Multi-Account)",
-      "Autonomous Multi-Agent Strategy",
+      "350 High-Volume Pins (20-Day Management)",
+      "Unlimited 30-sec Video Pins", 
       "Competitor Gap & Trend Hijacking",
       "Viral Video Analysis & Optimization",
       "24/7 Priority DFY Growth Support",
+      "Custom Growth Audit Reports",
+      "Exclusive Single Account Focus", 
     ],
     buttonText: "Initialize Elite",
     highlight: false,
     waMessage:
-      "Hi Sadaf, I need the V-4 Elite Dominance ($1500+). Please manage my global market share.",
+      "Hi Sadaf, I need the V-4 Elite Dominance ($1500). Please manage my global market share.",
   },
 ];
-
 const ServiceTiers = () => {
   return (
     <section className="relative z-10 max-w-7xl mx-auto px-6 py-24 md:py-32">
